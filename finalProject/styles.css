@@ -1,0 +1,40 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #e3f4ff;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+#search-btn {
+  padding: 6px 12px;
+  background-color: #1760ad;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.current-weather, .forecast {
+  background-color: rgb(174, 229, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
